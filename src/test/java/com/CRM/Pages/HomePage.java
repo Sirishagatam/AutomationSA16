@@ -3,6 +3,8 @@ package com.CRM.Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import config.utility;
+
 public class HomePage {
 
 	private WebDriver driver;
@@ -28,8 +30,10 @@ public class HomePage {
 	
 	public void getSignIn() throws InterruptedException
 	{
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
+		utility.capture(driver);
 		driver.findElement(signIn).click();
+		utility.capture(driver);
 	}
 		
 }

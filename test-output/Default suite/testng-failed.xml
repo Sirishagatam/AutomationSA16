@@ -5,8 +5,10 @@
     <classes>
       <class name="com.CRM.TestCases.HomePageTest">
         <methods>
+          <include name="verifyUrl"/>
           <include name="setUp"/>
           <include name="pageSetUp"/>
+          <include name="verifyTitle"/>
           <include name="verifySignin"/>
         </methods>
       </class> <!-- com.CRM.TestCases.HomePageTest -->

@@ -5,11 +5,24 @@
     <classes>
       <class name="com.CRM.TestCases.HomePageTest">
         <methods>
+          <include name="verifyUrl"/>
           <include name="setUp"/>
           <include name="pageSetUp"/>
+          <include name="verifyTitle"/>
           <include name="verifySignin"/>
         </methods>
       </class> <!-- com.CRM.TestCases.HomePageTest -->
     </classes>
   </test> <!-- HomePageTest(failed) -->
+  <test thread-count="5" name="LoginPageTest(failed)">
+    <classes>
+      <class name="com.CRM.TestCases.LoginPageTest">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="setUp"/>
+          <include name="pageSetUp"/>
+        </methods>
+      </class> <!-- com.CRM.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPageTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
