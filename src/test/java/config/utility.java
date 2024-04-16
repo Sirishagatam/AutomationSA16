@@ -22,7 +22,7 @@ public class utility {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("Screenshot completed");
+		System.out.println("Screenshot is completed");
 	}
 	
 }
